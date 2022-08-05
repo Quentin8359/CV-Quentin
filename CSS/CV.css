@@ -20,19 +20,24 @@ body {
 
 h1 {
     position:relative;
-    left:200px
+    top: 30px;
+    left: 200px;
+    font-size: 36pt;
+    text-shadow: 2px 3px 2px;
 }
 
 #photo {
     position: relative;
-    top:20px; left: -200px;
+    top:20px; left: 150px;
     width: 200px;
 }
 
 #contact {
-    background-position: right;
     position: relative;
-    top: 200px;
+    justify-content: center;
+    top: 120px;
+    right : 190px;
+    font-size: 24pt;
 }
 
 #experience {
@@ -42,7 +47,7 @@ h1 {
     border-top: 2px solid red;
     padding-top: 20px;
     padding-bottom: 50px;
-    width: 80%;
+    width: 60%;
 }
 
 #formation {
@@ -51,24 +56,35 @@ h1 {
     border-top: 2px solid red;
     padding-top: 20px;
     padding-bottom: 50px;
-    width:80%
+    width:60%;
 }
 
 .basdepage {
     display:flex;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 #competences {
     justify-content: center;
     border-top: 2px solid red;
     padding-top: 20px;
-    width: 30%;
+    margin-left: 250px;
+    width: 20%;
 }
 
 #loisirs {
     justify-content: center;
     border-top: 2px solid red;
     padding-top: 20px;
-    width: 30%;
+    margin-right: 250px;
+    width: 20%;
+}
+
+.desc {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
 }
