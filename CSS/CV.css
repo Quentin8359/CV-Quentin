@@ -8,6 +8,67 @@ top: 28px;
 
 background: url(IMG_4567 - copie.jpg); */
 
-hr {
-    color: crimson;
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+.hautpage {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    position:relative;
+    left:200px
+}
+
+#photo {
+    position: relative;
+    top:20px; left: -200px;
+    width: 200px;
+}
+
+#contact {
+    background-position: right;
+    position: relative;
+    top: 200px;
+}
+
+#experience {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-top: 2px solid red;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 80%;
+}
+
+#formation {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid red;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width:80%
+}
+
+.basdepage {
+    display:flex;
+    justify-content: space-between;
+}
+
+#competences {
+    justify-content: center;
+    border-top: 2px solid red;
+    padding-top: 20px;
+    width: 30%;
+}
+
+#loisirs {
+    justify-content: center;
+    border-top: 2px solid red;
+    padding-top: 20px;
+    width: 30%;
 }

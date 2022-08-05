@@ -4,33 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel ="stylesheet" href = "CSS/CV.css">
     <title>CV Quentin</title>
 </head>
 <body>
-    <img src="" alt="ma photo">
-    <h1>QUENTIN BELMANT</h1>
-    <p>Mail : quentin.bel@free.fr<br>Tél. : 06 84 03 50 34<br>Âge : 29 ans<br></p>
-    <hr>
-    <div><h2>EXPÉRIENCE</h2>
-    <p>Ingénieur du son (2017-2020)<br><br>Stage au café Bonnefooie, Bruxelles (juillet-août 2016)</p>
-    <hr></div>
-    <div><h2>FORMATION</h2>
-    <p>Nurserie Numérique (juillet-août 2022)<br><br>Diplôme d'ingénieur du son, SAE Bruxelles (2016)<br><br>Licence LEA Anglais-Japonais, Université Paris-Diderot - Paris 7 (2014)</p>
-    <hr></div>
-    <div>
-        <h2>COMPÉTENCES</h2>
-        <p>Anglais C1<br><br>Permis B<br><br></p>
-        <hr>
+    <div class="hautpage">
+        <img src="./Images/IMG_4567 - copie.jpg" alt="ma photo" id="photo">
+        <h1>QUENTIN BELMANT</h1>
+        <p id="contact">Mail : quentin.bel@free.fr<br>Tél. : 06 84 03 50 34<br>Âge : 29 ans<br></p>
     </div>
-    <div>
-        <h2>LOISIRS</h2>
-        <p>Heavy Metal<br><br>Histoire<br><br>SF/Horreur</p>
+        <div class="container" id ="experience">
+            <div class="row">
+                <h2>EXPÉRIENCE</h2>
+                <p>Ingénieur du son (2017-2020)<br><br>Stage au café Bonnefooie, Bruxelles (juillet-août 2016)</p>
+            </div>
+        </div>
+        <div class="container" id="formation">
+            <div class="row">
+                <h2>FORMATION</h2>
+                <p>Nurserie Numérique (juillet-août 2022)<br><br>Diplôme d'ingénieur du son, SAE Bruxelles (2016)<br><br>Licence LEA Anglais-Japonais, Université Paris-Diderot - Paris 7 (2014)</p>
+            </div>
+        </div>
+    <div class="basdepage">
+        <div class="container" id="competences">
+            <div class="col">
+                <h2>COMPÉTENCES</h2>
+                <p>Anglais C1<br><br>Permis B<br><br></p>
+            </div>
+        </div>
+        <div class="container" id="loisirs">
+            <div class ="col">
+                <h2>LOISIRS</h2>
+                <p>Heavy Metal<br><br>Histoire<br><br>SF/Horreur</p>
+            </div>
+        </div>
     </div>
 
 
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src = "JS/CV.js"></script>
 </body>
 </html>
