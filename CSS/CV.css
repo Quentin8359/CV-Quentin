@@ -1,12 +1,20 @@
-/* IMG_4567 - copie 1 */
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../Fonts/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('../Fonts/opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-/* position: absolute;
-width: 441px;
-height: 553px;
-left: 73px;
-top: 28px;
+}
 
-background: url(IMG_4567 - copie.jpg); */
+@font-face {
+    font-family: 'odor_mean_cheyregular';
+    src: url('../Fonts/odormeanchey-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/odormeanchey-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
     background-color: rgb(244, 244, 244);
@@ -19,8 +27,9 @@ body {
 }
 
 h1 {
+    font-family: 'odor_mean_cheyregular';
     position:relative;
-    top: 30px;
+    top: 60px;
     left: 200px;
     font-size: 36pt;
     text-shadow: 2px 3px 2px;
@@ -29,15 +38,16 @@ h1 {
 #photo {
     position: relative;
     top:20px; left: 150px;
-    width: 200px;
+    width: 250px;
 }
 
 #contact {
+    font-family: 'open_sansregular';
     position: relative;
     justify-content: center;
-    top: 120px;
-    right : 190px;
-    font-size: 24pt;
+    top: 170px;
+    right : 170px;
+    font-size: 20pt;
 }
 
 #experience {
@@ -82,9 +92,11 @@ h1 {
 
 .desc {
     text-align: center;
+    font-family: 'open_sansregular';
 }
 
 h2 {
     text-align: center;
+    font-family: 'open_sansregular';
     padding-bottom: 10px;
 }
